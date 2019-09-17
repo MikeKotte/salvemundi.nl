@@ -38,6 +38,7 @@ export default class Navigation extends Vue {}
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 1;
   padding: 15px 5%;
   display: flex;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

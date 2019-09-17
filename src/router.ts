@@ -5,6 +5,7 @@ import Privacy from './views/Privacy.vue';
 import NotFound from './views/errorHandling/NotFound.vue';
 import PreLogon from './views/PreLogon.vue';
 import Register from '@/views/Register.vue';
+import Profile from '@/views/Profile.vue';
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
     {
       path: '/register',
       component: Register,
+    },
+    {
+      path: '/dashboard/profile',
+      name: 'Profile',
+      component: Profile,
     },
     {
       path: '/privacy',
